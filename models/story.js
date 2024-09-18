@@ -18,6 +18,13 @@ const stories = [
       DateTime.DATETIME_SHORT
     ),
   },
+  {
+    id: "3",
+    title: "Learning NBAD",
+    content: "This is just a random thing i'm typing for the assingment",
+    author: "Rahil Desai",
+    createdAt: DateTime.now().toLocaleString(DateTime.DATETIME_SHORT),
+  },
 ];
 
 exports.find = () => {
